@@ -68,8 +68,13 @@ header nav ul li a:hover {
 }
 
 .about-me-text {
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
+}
+
+.about-me-image {
+    width: 50%;
+    text-align: right; /* Align the image to the right */
 }
 
 .about-me-image img {
@@ -78,6 +83,7 @@ header nav ul li a:hover {
     height: auto;
     border-radius: 10px;
 }
+
 
 main section {
     margin: 20px 0;
