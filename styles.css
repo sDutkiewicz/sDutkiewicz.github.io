@@ -77,7 +77,7 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: space-between;
     margin: 40px 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 30px;
     background: #fff;
     padding: 40px;
