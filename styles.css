@@ -73,12 +73,11 @@ header nav ul li a:hover {
 }
 
 .about-me {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 280px;
     align-items: center;
-    justify-content: space-between;
+    gap: 40px;
     margin: 40px 0;
-    flex-wrap: nowrap;
-    gap: 30px;
     background: #fff;
     padding: 40px;
     border-radius: 15px;
@@ -93,6 +92,7 @@ header nav ul li a:hover {
 .about-me-image {
     flex: 0 0 280px;
     text-align: center;
+    width: 100%;
 }
 
 .about-me-image img {
@@ -243,12 +243,11 @@ footer a:hover {
     }
     
     .about-me {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
     
     .about-me-text, .about-me-image {
         width: 100%;
-        flex: 1;
     }
 
     .project img {
